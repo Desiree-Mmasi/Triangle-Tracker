@@ -25,7 +25,7 @@ There are no Bugs detected in the original copyright of this application.
 3. JavaScript
 4. VisualStudio Code
 ## Support and contact details
-{In the instance the application doesn't function as expected or doesn't give the accurate input feel free to contact Mmasi Desiree @ 0758913903 or leave an email @ mmasidesiree9@gmail.com}
+{In the instance the application doesn't function as expected or doesn't give the accurate input feel free to contact Mmasi Desiree @ 0758913903 or leave an email @ mmasidesiree9@gmail.com or reach me on my github page Desiree-Mmasi}
 ### License
 *{MIT}*
 Copyright (c) {2019} **{Contributers: Moringa School
