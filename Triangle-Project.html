@@ -7,18 +7,23 @@
     <title>Robomath</title>
   </head>
     <body>
-            <script src=""
+            <script src="js/script.js"></script>
             <body background = "Image/Robomath.jpg"></body>
         <style>
                 .list{
-    color: white;
+    color: purple;
     font-family:'Germania One', cursive;
-    font-size: 80px;
+    font-size: 40px;
     text-align: center; 
  }
         </style>
+        <h1>Mathematical fun!</h1>
         <div class="list fadeInDown animated">
-            <h1>Mathematical fun!</h1>
+          <p>Enter your values below to get to see which Triangle you form!</p>
+            <h2>Side a:<input id="a" type="text" value=""></h2>
+            <input type="button" name="submit" onclick="triangle()" value="submit">
+            <input type="button" name="reload" onclick="reload()" value="reload">
+            <p id="response"></p>
         </div>    
     </body>
 </html>
