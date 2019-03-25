@@ -5,7 +5,7 @@
 {This application enables the user know what type of triangle they have formed after inputting their different and prefferd values of numbers only! The app cannot work with decimals, blank spaces and letters as inputs. The user however can put the same number and still form a triangle.}
 ## Setup/Installation Requirements
 -The application is visible on https://github.com/Desiree-Mmasi/Triangle-Tracker.git
--The application is in corporation with other junior websites of learning mathematics
+-The application was set up on your laptop and by git cloning https://github.com/Desiree-Mmasi/Triangle-Tracker.git in your terminal
 ## Known Bugs
 {There are no Bugs detected in the original copyright of this application.}
 ## Technologies Used
