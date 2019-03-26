@@ -12,23 +12,29 @@
             <body background = "Image/Robomath.jpg"></body>
                 <style>
                 .list{
-    color: b;
+    color: aqua;
+    font-family:'Germania One', cursive;
+    font-size: 100px;
+    text-align: center;
+                }
+    .title{
+    color:black;
     font-family:'Germania One', cursive;
     font-size: 80px;
     text-align: center; 
                     }
               </style>
-                <div class="list fadeInDown animated">
-                <div class="jumbotron">
-          <p>Enter your values below to get to see which Triangle you form!</p>
+              <div class="title">
+                  <p>Enter your values below to get to see which Triangle you form!</p>
                 </div>
-            <h2>Side a:<input id="a" type="text" value=""></h2>
+          <div class="list fadeInDown animated">
+          <h2>Height:<input id="a" type="number" value=""></h2>
             <br>
-      <h2>Side b:<input id="b" type="text" value=""></h2>
+      <h2>Base:<input id="b" type="number" value=""></h2>
       <br>
-      <h2>Side c:<input id="c" type="text" value=""></h2>
-      <input type="button" name="submit" onclick="triangle()" value="submit">
+      <h2>Hypotenuse:<input id="c" type="number" value=""></h2>
+      <button onclick="triangle(parseFloat(document.getElementById('a').value),parseFloat(document.getElementById('b').value),parseFloat(document.getElementById('c').value))">submit</button>
       </div>
-            <div id="response"></div>
+      <div id="response"></div>
     </body>
 </html>
