@@ -8,19 +8,19 @@ function triangle(){
   
   if(sideA + sideB > sideC && sideB + sideC > sideA && sideA + sideC >sideB){
     if (sideA==sideB && sideB==sideC) {
-      response.innerHTML = 'Equilateral Triangle <img src="images/ok.png">'
+      response.innerHTML = 'Equilateral Triangle <img src="Image/Equilateral triangle.png">'
     }
     else if(sideA!=sideB && sideB!=sideC && sideA!=sideC) {
-      response.innerHTML = 'Scalene <img src="images/wink.png">'
+      response.innerHTML = 'Scalene Triangle <img src="Image/Scalene Triangle.png">'
     }
     else {
-      response.innerHTML = 'Isosceles <img src="images/thumbs-up.png">'
+      response.innerHTML = 'Isosceles <img src="Image/Isosceles triangle.png">'
     }
   }
   else if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)){
-      response.innerHTML = 'Not a number <img src="images/hear-no-evil.png">'
+      response.innerHTML = 'Not a number <img src="Image/sad.jpg">'
     }else{
-      response.innerHTML = 'Not a triangle <img src="images/see-no-evil.png">'
+      response.innerHTML = 'Not a triangle <img src="Image/sad.jpg">'
   }
   function reload(){
     location.reload();
