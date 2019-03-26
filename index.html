@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+          <meta charset="utf-8">
           <link href="Css/Bootstrap.css" rel="stylesheet" type="text/css">
           <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
           <link rel="stylesheet" href="./Css/animate.css">
@@ -9,14 +10,14 @@
     <body>
             <script src="./js/script.js"></script>
             <body background = "Image/Robomath.jpg"></body>
-        <style>
+                <style>
                 .list{
-    color: aquamarine;
+    color: b;
     font-family:'Germania One', cursive;
-    font-size: px;
+    font-size: 80px;
     text-align: center; 
- }
-        </style>
+                    }
+              </style>
                 <div class="list fadeInDown animated">
                 <div class="jumbotron">
           <p>Enter your values below to get to see which Triangle you form!</p>
@@ -26,11 +27,8 @@
       <h2>Side b:<input id="b" type="text" value=""></h2>
       <br>
       <h2>Side c:<input id="c" type="text" value=""></h2>
-      <input type="button" name="reload" onclick="result()" value="Submit">
-
+      <input type="button" name="submit" onclick="triangle()" value="submit">
       </div>
-      
-            <p id="response"></p>
-        </div>    
+            <div id="response"></div>
     </body>
 </html>
