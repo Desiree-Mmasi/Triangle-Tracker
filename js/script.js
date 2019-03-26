@@ -1,27 +1,28 @@
-function result() {
-    console.log('l')
-    var sideA = document.getElementById('a').value;
-    var sideB = document.getElementById('b').value;
-    var sideC = document.getElementById('c').value;
-    var result = document.getElementById("result");
-   
-if(sideA != sideB && sideB != sideC && sideC != sideA) {
-    // document.getElementById("result").innerHTML = "Scalene Triangle <img src= Image/Scalene triangle.png>"
-    alert("Scalene Triangle")
-}
-else if (sideA === sideB && sideB === sideC && sideA === sideC) {
-    //document.getElementById("result").innerHTML = "Equilateral Triangle <img src= Image/Equilateral triangle.png>"
-alert("Equilateral Triangle")
-}
-else if (sideA === sideB != sideC || sideB === sideC != sideA || sideC === sideA != sideB) {
-    // document.getElementById("result").innerHTML = "Isosceles Triangle <img src= Image/Isosceles triangle.png>"
-    alert("Isosceles Traingle")
-}
-else{
-    //document.getElementById("result").innerHTML = "Not a Triangle <img src= Image/sad.jpg>"
-  alert("Not a triangle")
-}    
-
-
-
-}
+function triangle(){
+    var sideA =parseInt(document.getElementById('a').value);
+    var sideB =parseInt(document.getElementById('b').value);
+    var sideC =parseInt(document.getElementById('c').value);
+    var response = document.getElementById('response');
+    var triangles = ["Equilateral triangl","Isosceles triangle","Scalene triangle"];
+  
+  
+  if(sideA + sideB > sideC && sideB + sideC > sideA && sideA + sideC >sideB){
+    if (sideA==sideB && sideB==sideC) {
+      response.innerHTML = 'Equilateral Triangle <img src="images/ok.png">'
+    }
+    else if(sideA!=sideB && sideB!=sideC && sideA!=sideC) {
+      response.innerHTML = 'Scalene <img src="images/wink.png">'
+    }
+    else {
+      response.innerHTML = 'Isosceles <img src="images/thumbs-up.png">'
+    }
+  }
+  else if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)){
+      response.innerHTML = 'Not a number <img src="images/hear-no-evil.png">'
+    }else{
+      response.innerHTML = 'Not a triangle <img src="images/see-no-evil.png">'
+  }
+  function reload(){
+    location.reload();
+  }
+  }
