@@ -1,8 +1,7 @@
-# {Triangle Tracker}
-#### {This application assits one to know the difference between an Equilateral, Scalene and an Isoceles Triangle}, {24.03.2019 16:30 E.A.T}
-#### **{HTML,CSS & JavaScript}**
+# Triangle Tracker
+#### This application assits one to know the difference between an Equilateral, Scalene and an Isosceles Triangle
 ## Description
-{This application enables the user know what type of triangle they have formed after inputting their different and prefferd values of numbers only! The app cannot work with decimals, blank spaces and letters as inputs. The user however can put the same number and still form a triangle.}
+This application enables the user know what type of triangle they have formed after inputting their different and prefferd values of numbers only! The app cannot work with decimals, blank spaces and letters as inputs. The user however can put the same number and still form a triangle.
 ## Setup/Installation Requirements
 -The application is visible on https://github.com/Desiree-Mmasi/Triangle-Tracker.git
 -The application can be set up on your laptop  by git cloning https://github.com/Desiree-Mmasi/Triangle-Tracker.git in your terminal either Atom or VisualStudio Code
