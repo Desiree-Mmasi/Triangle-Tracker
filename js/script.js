@@ -18,7 +18,8 @@ else if (sideA === sideB != sideC || sideB === sideC != sideA || sideC === sideA
     alert("Isosceles Traingle")
 }
 else{
-    document.getElementById("result").innerHTML = "Not a Triangle <img src= Image/sad.jpg>"
+    //document.getElementById("result").innerHTML = "Not a Triangle <img src= Image/sad.jpg>"
+  alert("Not a triangle")
 }    
 
 
