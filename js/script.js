@@ -1,11 +1,28 @@
 function triangle (a,b,c){
     if (a+b>c && a+c>b && b+c>a && a==b && b==c)
-alert("Equilateral Triangle"<img src")
+equilateral();
 else if (a+b>c && a+c>b && b+c>a && a==b || b==c || c==a)
-alert("Isosceles Triangle")
+    iso();
 else if (a+b>c && a+c>b && b+c>a && a!=b && b!=a && c!=a)
-alert("Scalene Triangle")
+    scalene();
 else
-alert("Cannot form a triangle")
-
+     fail();
 } 
+
+function equilateral(){
+    window.location = "Equi.html";
+}
+
+ function scalene(){
+    window.location = "Scalene.html";
+ }
+
+
+ function iso (){
+    //alert("Cannot form a triangle")
+     window.location = "Isosceles.html";
+
+ }
+ function fail(){
+    window.location = "Sad.html";
+ }
